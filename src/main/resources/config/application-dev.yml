@@ -56,10 +56,24 @@ spring:
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.BeanClassLoaderAwareJCacheRegionFactory
     liquibase:
         contexts: dev
+    
+#    ///////////////////// ha gmail-lel akarjuk...
+#    mail:
+#        host: smtp.gmail.com
+#        port: 587
+#        username: jhiptstertest@gmail.com
+#        password: nefelejtsdkiajelszot          //////// ide kell az igazi jelszo
+#        protocol: smtp
+#        tls: true
+#        properties.mail.smtp :
+#            auth: true
+#            starttls.enable: true
+#            ssl.trust: smtp.gmail.com    
+     
     mail:
         host: localhost
         port: 25
-        username:
+        username: 
         password:
     messages:
         cache-duration: PT1S # 1 second, see the ISO 8601 standard
